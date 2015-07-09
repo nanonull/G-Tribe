@@ -1,0 +1,1 @@
+mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file -Dfile=libgdx-contribs-postprocessing-1.0.6.1-SNAPSHOT.jar -DgroupId=local-libgdx-contribs-postprocessing -DartifactId=libgdx-contribs-postprocessing.jar -Dversion=1.0.6.1-SNAPSHOT -Dpackaging=jar

@@ -1,0 +1,1 @@
+mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file -Dfile=gdx-tools-1.4.2-SNAPSHOT.jar -DgroupId=gdx-tools -DartifactId=gdx-tools.jar -Dversion=local -Dpackaging=jar

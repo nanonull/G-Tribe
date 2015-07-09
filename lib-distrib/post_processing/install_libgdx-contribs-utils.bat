@@ -1,0 +1,1 @@
+mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file -Dfile=libgdx-contribs-utils-1.0.6.1-SNAPSHOT.jar -DgroupId=local-libgdx-contribs-utils -DartifactId=libgdx-contribs-utils.jar -Dversion=1.0.6.1-SNAPSHOT -Dpackaging=jar

@@ -1,0 +1,9 @@
+target/
+.idea/
+*.iml
+*.log
+*.log.*
+test-output
+test-output-maven
+src/main/java/conversion7/MainSomeDebugs.java
+release

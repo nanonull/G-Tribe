@@ -1,0 +1,27 @@
+<assembly>
+    <id>game-zip</id>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>resources</directory>
+            <outputDirectory>resources</outputDirectory>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>target/gdxg-art-1.0-SNAPSHOT.jar</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <file>
+            <source>common.properties</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <file>
+            <source>assembly/RUN.bat</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+    </files>
+</assembly>

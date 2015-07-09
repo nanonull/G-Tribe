@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=tween-engine-api-sources.jar -DgroupId=aurelienribon.tweenengine -DartifactId=tween-engine-api-sources -Dversion=6.3.3 -Dpackaging=jar -DgeneratePom=true

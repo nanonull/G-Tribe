@@ -1,0 +1,1 @@
+In the most cases Test class should extend from ApplicationListener to ClientCore
