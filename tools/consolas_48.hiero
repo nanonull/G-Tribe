@@ -1,0 +1,15 @@
+font.size=48
+font.bold=true
+font.italic=false
+
+pad.top=1
+pad.right=2
+pad.bottom=1
+pad.left=2
+pad.advance.x=0
+pad.advance.y=0
+
+glyph.native.rendering=false
+glyph.page.width=256
+glyph.page.height=256
+

@@ -1,1 +1,0 @@
-mvn org.apache.maven.plugins:maven-install-plugin:2.3.1:install-file -Dfile=gdx-natives.jar -DgroupId=local-libgdx -DartifactId=gdx-natives.jar -Dversion=0.1 -Dpackaging=jar

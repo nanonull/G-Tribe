@@ -13,6 +13,4 @@ cd libgdx_tools
 start cmd /c !install.bat
 cd ../
 
-rem >>>>> add LibGdx
-CALL install_gdx-natives.bat
 pause

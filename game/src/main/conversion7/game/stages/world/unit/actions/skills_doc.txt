@@ -1,0 +1,35 @@
+
+lvl 2
+MELEE_SWING
+SPRINT
+GrinderEffect
+EvadeEffect
+IncreaseViewRadiusEffect
+HOOK arms + brain skill
+FIRE fire skill
+CHARGE hodor
+PROVOKE hodor
+STUNNING hodor
+HEALING druid
+CREATE_MOUNTAIN_DEBRIS druid
+SCARE_ANIMAL druid
+SCARE_ANIMAL witch
+DISABLE_HEALING witch
+SLEEP witch
+SLEEP shadow
+PLACE_TRAP shadow
+CONCEALMENT shadow
+VengeanceHitEffect shadow
+
+lvl 3
+spec + prev skills
+
+
+lvl 4
+EARTH_SHAKE hodor
+CALL_TREE_DAD druid
+HOLY_RAIN druid god
+RESURRECT druid god
+FIREBALL witch god
+LIGHTNING witch god
+TELEPORT shadow

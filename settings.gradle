@@ -1,0 +1,3 @@
+rootProject.name = 'gdxg-tribe'
+include 'game'
+include 'gdx-contrib'

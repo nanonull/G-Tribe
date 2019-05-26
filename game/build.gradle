@@ -1,0 +1,22 @@
+ext {
+    aspectjVersion = '1.8.4'
+}
+
+//apply plugin: 'aspectj'
+
+buildscript {
+    repositories {
+        maven {
+            url "https://maven.eveoh.nl/content/repositories/releases"
+        }
+    }
+
+    /*dependencies {
+        classpath "nl.eveoh:gradle-aspectj:1.6"
+    }*/
+}
+
+dependencies {
+    compile project(':gdx-contrib')
+}
+

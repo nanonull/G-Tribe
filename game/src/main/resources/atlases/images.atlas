@@ -1,0 +1,706 @@
+
+images.png
+size: 1024,1024
+format: RGBA8888
+filter: MipMapLinearLinear,Linear
+repeat: none
+1px_red
+  rotate: false
+  xy: 747, 307
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+1px_white
+  rotate: false
+  xy: 750, 313
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+apple
+  rotate: false
+  xy: 776, 545
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: false
+  xy: 484, 28
+  size: 5, 24
+  orig: 5, 24
+  offset: 0, 0
+  index: -1
+atlatl
+  rotate: false
+  xy: 82, 11
+  size: 30, 9
+  orig: 30, 9
+  offset: 0, 0
+  index: -1
+bow
+  rotate: false
+  xy: 570, 152
+  size: 9, 28
+  orig: 9, 28
+  offset: 0, 0
+  index: -1
+capture_unit
+  rotate: false
+  xy: 750, 316
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+charge
+  rotate: false
+  xy: 904, 887
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: -1
+child
+  rotate: false
+  xy: 776, 617
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+cold
+  rotate: false
+  xy: 522, 103
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+conceal
+  rotate: false
+  xy: 776, 569
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+cudgel
+  rotate: false
+  xy: 636, 216
+  size: 8, 30
+  orig: 8, 30
+  offset: 0, 0
+  index: -1
+disab_heal
+  rotate: false
+  xy: 392, 24
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+earthshake
+  rotate: false
+  xy: 715, 278
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+fang
+  rotate: false
+  xy: 954, 908
+  size: 13, 24
+  orig: 13, 24
+  offset: 0, 0
+  index: -1
+female
+  rotate: false
+  xy: 1004, 942
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 551, 71
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+fireball
+  rotate: false
+  xy: 522, 74
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+fonts/Consolas_12_italic
+  rotate: false
+  xy: 774, 894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fonts/Consolas_14
+  rotate: false
+  xy: 2, 122
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+fonts/Consolas_18
+  rotate: false
+  xy: 2, 510
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+fonts/consolas_28
+  rotate: false
+  xy: 2, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+fonts/consolas_481
+  rotate: false
+  xy: 516, 766
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+fonts/consolas_482
+  rotate: false
+  xy: 260, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+fonts/consolas_483
+  rotate: false
+  xy: 518, 378
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 516, 636
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow_32x32
+  rotate: false
+  xy: 432, 54
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+grass_128
+  rotate: false
+  xy: 646, 636
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+hammer
+  rotate: false
+  xy: 776, 642
+  size: 16, 29
+  orig: 16, 29
+  offset: 0, 0
+  index: -1
+mace
+  rotate: false
+  xy: 776, 642
+  size: 16, 29
+  orig: 16, 29
+  offset: 0, 0
+  index: -1
+heal
+  rotate: false
+  xy: 422, 24
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+heal_48px
+  rotate: false
+  xy: 970, 974
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+hook
+  rotate: false
+  xy: 774, 766
+  size: 30, 10
+  orig: 30, 10
+  offset: 0, 0
+  index: -1
+hunger
+  rotate: false
+  xy: 551, 41
+  size: 21, 28
+  orig: 21, 28
+  offset: 0, 0
+  index: -1
+icons/Australopithecus_32
+  rotate: false
+  xy: 398, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Amphicyonidae
+  rotate: false
+  xy: 716, 344
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Ekaltadeta
+  rotate: false
+  xy: 52, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Eusmilus
+  rotate: false
+  xy: 650, 278
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Hyaenodon
+  rotate: false
+  xy: 432, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Indricotherium
+  rotate: false
+  xy: 86, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Mastodon
+  rotate: false
+  xy: 466, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Mesohippus
+  rotate: false
+  xy: 120, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Oreodontidae
+  rotate: false
+  xy: 154, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Phorusrhacidae
+  rotate: false
+  xy: 188, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Protoceras
+  rotate: false
+  xy: 222, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Pyrotherium
+  rotate: false
+  xy: 256, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/animals/Thylacoleo
+  rotate: false
+  xy: 290, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/apple
+  rotate: false
+  xy: 776, 593
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+icons/archon
+  rotate: false
+  xy: 2, 6
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+icons/army
+  rotate: false
+  xy: 324, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/baal
+  rotate: false
+  xy: 904, 908
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+icons/blob
+  rotate: false
+  xy: 954, 934
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+icons/dryopitec_32
+  rotate: false
+  xy: 358, 22
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/elements/air
+  rotate: false
+  xy: 2, 56
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icons/elements/earth
+  rotate: false
+  xy: 904, 958
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icons/elements/fire
+  rotate: false
+  xy: 774, 828
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icons/elements/water
+  rotate: false
+  xy: 332, 56
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icons/explore
+  rotate: false
+  xy: 716, 310
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/eye_green
+  rotate: false
+  xy: 452, 2
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+icons/eye_green_red
+  rotate: false
+  xy: 970, 950
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+icons/eye_red
+  rotate: false
+  xy: 840, 820
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+icons/eye_yellow
+  rotate: false
+  xy: 586, 174
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+icons/follow
+  rotate: false
+  xy: 398, 54
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/home
+  rotate: false
+  xy: 466, 54
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/mman
+  rotate: false
+  xy: 520, 182
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icons/patrol
+  rotate: false
+  xy: 650, 244
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/plus
+  rotate: false
+  xy: 581, 177
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+icons/sword
+  rotate: false
+  xy: 684, 244
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+icons/temperature
+  rotate: false
+  xy: 890, 866
+  size: 12, 26
+  orig: 12, 26
+  offset: 0, 0
+  index: -1
+icons/tree_48
+  rotate: false
+  xy: 586, 198
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+javelin
+  rotate: false
+  xy: 776, 516
+  size: 4, 27
+  orig: 4, 27
+  offset: 0, 0
+  index: -1
+lightning
+  rotate: false
+  xy: 500, 56
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+male
+  rotate: false
+  xy: 522, 45
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+moon
+  rotate: false
+  xy: 776, 673
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+mountain_64
+  rotate: false
+  xy: 650, 312
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+powerfist
+  rotate: false
+  xy: 52, 3
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+provoke
+  rotate: false
+  xy: 970, 927
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+rain
+  rotate: false
+  xy: 718, 246
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+reproduction_error
+  rotate: false
+  xy: 685, 278
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+sand_128
+  rotate: false
+  xy: 260, 122
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+scare
+  rotate: false
+  xy: 904, 861
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+shadow_48px
+  rotate: false
+  xy: 840, 844
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 776, 705
+  size: 20, 29
+  orig: 20, 29
+  offset: 0, 0
+  index: -1
+shield_48px
+  rotate: false
+  xy: 774, 778
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+skin_robe
+  rotate: false
+  xy: 500, 88
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+spear
+  rotate: false
+  xy: 834, 794
+  size: 4, 32
+  orig: 4, 32
+  offset: 0, 0
+  index: -1
+spiral_48px
+  rotate: false
+  xy: 520, 132
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+stick
+  rotate: false
+  xy: 824, 796
+  size: 8, 30
+  orig: 8, 30
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 936, 893
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+stone_128
+  rotate: false
+  xy: 390, 122
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+sun
+  rotate: false
+  xy: 452, 26
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+sun1
+  rotate: false
+  xy: 68, 56
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sun_blue
+  rotate: false
+  xy: 134, 56
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sun_green
+  rotate: false
+  xy: 200, 56
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sun_red
+  rotate: false
+  xy: 266, 56
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+swing
+  rotate: false
+  xy: 750, 346
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+thirst
+  rotate: false
+  xy: 776, 736
+  size: 23, 28
+  orig: 23, 28
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 1004, 916
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+tusk
+  rotate: false
+  xy: 551, 100
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+water_128
+  rotate: false
+  xy: 520, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

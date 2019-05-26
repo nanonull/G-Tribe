@@ -1,0 +1,122 @@
+import com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile
+
+version = '0.1'
+
+ext {
+    groovyVersion = '2.4.3'
+    javaVersion = '1.8'
+    gdxVersion = '1.9.6'
+    artemisVersion = '1.4.0'
+}
+
+allprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'groovy'
+    apply plugin: 'idea'
+
+    setEncoding(project, "UTF-8")
+    project.version = this.version
+
+    sourceCompatibility = "$javaVersion"
+
+    sourceSets {
+        main.java.srcDirs = []
+        main {
+            groovy {
+                srcDirs = ['src/main']
+            }
+        }
+
+        main.resources {
+            srcDirs = ['src/main/resources', 'resources']
+            exclude '~**.xlsx'
+        }
+
+        test.java.srcDirs = []
+        test {
+            groovy {
+                srcDirs = ['src/test']
+            }
+        }
+    }
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        maven { url "https://jitpack.io" }
+        maven { url "http://repo.maven.apache.org/maven2" }
+    }
+
+    dependencies {
+        compile 'junit:junit:4.12'
+        compile group: 'org.codehaus.groovy', name: 'groovy-all', version: "${groovyVersion}"
+
+        compile group: 'com.badlogicgames.gdx', name: 'gdx-backend-lwjgl', version: "$gdxVersion"
+        compile group: 'com.badlogicgames.gdx', name: 'gdx', version: "$gdxVersion"
+        compile group: 'com.badlogicgames.gdx', name: 'gdx-ai', version: '1.4.0'
+        compile group: 'com.badlogicgames.gdx', name: 'gdx-platform', version: "$gdxVersion"
+        compile group: 'com.badlogicgames.gdx', name: 'gdx-openal', version: '0.9.9'
+        compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+        compile group: 'local-libgdx-contribs-utils', name: 'libgdx-contribs-utils.jar', version: '1.0.6.1-SNAPSHOT'
+        compile group: 'gdx-tools', name: 'gdx-tools.jar', version: 'local'
+        compile "net.namekdev.entity_tracker:artemis-entity-tracker:0.2.1"
+        compile "net.namekdev.entity_tracker:artemis-entity-tracker-gui:0.2.1"
+        compile group: 'com.kotcrab.vis', name: 'vis-ui', version: '1.3.0'
+
+        compile group: 'com.github.nanonull', name: 'sync-break-point', version: 'v1.0.2'
+        compile group: 'aurelienribon.tweenengine', name: 'tween-engine-api', version: '6.3.3'
+        compile group: 'org.easytesting', name: 'fest-assert-core', version: '2.0M5'
+        compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.12'
+        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.7'
+        compile group: 'com.jcabi', name: 'jcabi-log', version: '0.15.1'
+        compile group: 'com.google.guava', name: 'guava', version: '18.0'
+        compile group: 'org.testng', name: 'testng', version: '6.8.17'
+        compile group: 'com.jayway.awaitility', name: 'awaitility', version: '1.3.1'
+        compile group: 'com.google.inject', name: 'guice', version: '4.0'
+        compile group: 'org.aspectj', name: 'aspectjrt', version: '1.8.9'
+
+//        Excel library
+        compile group: 'org.apache.poi', name: 'poi', version: '3.14'
+        compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.14'
+        compile group: 'commons-beanutils', name: 'commons-beanutils', version: '1.9.2'
+        compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+
+        compile 'org.apache.commons:commons-lang3:3.4'
+        compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.5.1'
+        compile 'org.json:json:20151123'
+        compile 'org.jsoup:jsoup:1.8.3'
+        compile group: 'org.apache.commons', name: 'commons-io', version: '1.3.2'
+
+        testCompile group: 'org.spockframework', name: 'spock-core', version: '1.0-groovy-2.4'
+        testCompile group: 'org.powermock', name: 'powermock-api-mockito', version: '1.6.5'
+        testCompile group: 'org.powermock', name: 'powermock-module-junit4', version: '1.6.5'
+
+    }
+
+    // dependency management
+    configurations {
+        all {
+            resolutionStrategy {
+                force "net.onedaybeard.artemis:artemis-odb:$artemisVersion"
+            }
+        }
+    }
+
+    jar {
+        manifest.attributes provider: 'gradle'
+    }
+}
+
+
+
+def setEncoding(def build, String enc) {
+    println sprintf('setEncoding %s %s', enc, build)
+    build.tasks.withType(Compile) {
+        options.encoding = enc
+    }
+    build.tasks.withType(GroovyCompile) {
+        groovyOptions.encoding = enc
+    }
+    build.compileJava.options.encoding = enc
+}
